@@ -1,7 +1,3 @@
-numbers = [1,2,3,4,5]
-for num in numbers:
-    if num ==3:
-        break
-    print(num)
-else:
-    print("finished")
+my_list = [1, 2, 3, 4, 5]
+result = [x * 2 for x in my_list if x % 2 == 0]
+print(result)
